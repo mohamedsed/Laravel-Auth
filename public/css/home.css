@@ -1,0 +1,376 @@
+:root
+{
+    --main-color:#f25454;
+}
+.nav-item a{
+    transition: 0.4s;
+}
+.nav-item a:hover{
+    color: var(--main-color) !important;
+}
+
+h1{
+    color: tomato;
+}
+.nav-item::marker
+{
+    content: none !important;
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+
+
+a{
+    color: white!important;
+}
+#Home .carousel-item h2
+{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.title h2
+{
+font-size: 100px;
+opacity: 0.06;
+}
+.title h3
+{
+    font-family: small_font;
+    font-size: 38px;
+}
+.title h3::after
+{
+    content:"";
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+
+}
+.title:hover  h3::after
+{
+   width: 45%;
+}
+.progress
+{
+    height: 5px !important;;
+}
+.progress .prog1
+{
+    width: 80%;
+    background-color: var(--main-color);
+
+}
+.prog_content
+{
+    width: 80%;
+}
+.progress .prog2
+{
+    width: 95%;
+    background-color: var(--main-color);
+}
+.prog_content2
+{
+    width: 95%;
+}
+
+.progress .prog3
+{
+    width: 85%;
+    background-color: var(--main-color);
+}
+.prog_content3
+{
+    width: 85%;
+}
+.progress .prog4
+{
+    width: 70%;
+    background-color: var(--main-color);
+}
+.prog_content4
+{
+    width: 70%;
+}
+.img_lay
+{
+    background-color: var(--main-color);
+    opacity: 0;
+    transition: all 1s;
+}
+.team_caption
+{
+    transition: all 1s;
+
+}
+.team_caption:hover .img_lay
+{
+opacity: 0.7;
+}
+.team_img
+{
+    transition: all 0.5s;
+}
+.team_caption:hover .team_img
+{
+    transform: scale(1.2);
+}
+.team_caption:hover h4
+{
+    color: var(--main-color);
+}
+#idea .idea_button
+{
+    background-color: var(--main-color);
+    padding: 15px 25px;
+    color: white;
+    font-family: small-font;
+}
+.idea_button:hover
+{
+    background-color:#bb5252 !important;
+}
+#services
+{
+    background-color: #fafafa;
+}
+#services .serv_icon
+{
+    color: var(--main-color);
+    font-size: 14px;
+}
+.serv_caption h3
+{
+    font-family: small_font;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.serv_caption:hover h3
+{
+    color: var(--main-color);
+}
+#client .btn_slider
+{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-1.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider1{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-2.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider2{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-3.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider3{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-4.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider4{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-5.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider5{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-6.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider6{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-7.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider7{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-8.png);
+    background-position: center center;
+    background-size: cover;
+}
+#client .btn_slider8{
+    width: 100px !important;
+    height: 100px!important;
+    border-radius: 50%;
+    background-image: url(../image/client-9.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel-inner
+{
+    width: 85%;
+    margin: auto;
+}
+.carousel-inner .carousel-item
+{
+    font-size: 25px;
+}
+#fourm
+{
+    background-color: #fafafa;
+}
+.fourm_caption i{
+    font-size: 40px;
+    padding: 15px;
+    color: var(--main-color);
+}
+.fourm_caption h3{
+    font-size: 18px;
+    font-family: small_font;
+    font-weight: bold;
+    transition: all 0.5s !important;
+}
+
+.fourm_caption:hover h3{
+color: var(--main-color);
+}
+.fourm_caption
+{
+    border-bottom: 1px solid #eee;
+}
+#last_caption
+{
+    border-bottom: none !important;
+}
+.fourm_caption .mail
+{
+    text-decoration: none;
+    transition: all 0.5s !important;
+
+
+}
+.fourm_caption .mail:hover{
+    color: var(--main-color);
+}
+.fourms .form-text
+{
+    height: 5%;
+}
+.fourms .form-control1
+{
+    height: 30%;
+    width: 100%;
+}
+.fourms .fourm_button
+{
+    padding: 15px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.fourms .fourm_button:hover
+{
+   background-color: #bb5252;
+}
+#footer
+{
+    background-image: url(../image/dotted-map.png);
+    background-color: 1a1a1a !important;
+    color: #b0b0b0 !important;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.footer_icon
+{
+    position: absolute;
+    left: 50%;
+    color:  #b0b0b0 !important;
+
+
+
+}
+.footer_icon:hover i
+{
+    opacity: 1;
+}
+.footer_icon i{
+    font-size: 20px;
+    transition: 0.5s;
+    opacity: 0.5;
+    color: white;
+}
+#footer .footer_hove{
+    color: #b0b0b0;
+    transition: 0.5s;
+}
+#footer .footer_hove:hover{
+    color: var(--main-color);
+}
+.footer_btn button
+{
+    padding: 7px 10px;
+    border-radius:3px;
+    background-color: transparent;
+    color: #b0b0b0 !important;
+    margin: 5px 0px;
+    border: 1px solid #b0b0b0;
+    transition: 0.4s;
+}
+.footer_btn button:hover{
+    color: var(--main-color) !important;
+    border-color: var(--main-color);
+
+}
+.copy_right i{
+    color: white;
+    padding: 0rem 0.75rem;
+    transition: 0.4s;
+}
+.copy_right i:hover
+{
+    color: var(--main-color);
+}
+.copy_right .copy_end p , a
+{
+    color: #b0b0b0;
+}
+.copy_right .copy_end a
+{
+    color: white;
+    transition: 0.4s;
+}
+.copy_right .copy_end a:hover
+{
+    color: var(--main-color);
+}
