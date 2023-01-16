@@ -1,0 +1,9 @@
+you can make your local host setting in your .env
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=authlaravel
+DB_USERNAME=root
+DB_PASSWORD=
+and i will upload my sql to imbort it in your local host to make your project work
